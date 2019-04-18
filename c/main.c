@@ -13,14 +13,14 @@
     such a mix of licenses would be forbidden.
     
     3. The below code is not strictly ANSI C; I am defining some loop variables within the loops, which is not
-    allow in ANSI C.
+    allowed in ANSI C.
     
     4. The test input provided in the project currently is extremely minimal. In actual production authorship of
     such code a more extensive test suite should be done. Of specific note is using field names longer than 255
     character. The initial implementation of this did not support that and later commit did. As a result, in proper
     development a test would be added for that to prevent regression.
     
-    5. The maximum count supported by this program is that storable in a 2 byte unsigned integer. It could be
+    5. The maximum count supported by this program is that which is storable in a 2 byte unsigned integer. It could be
     adjusted to support more but that is a current limitation.
 */
 
